@@ -2,6 +2,12 @@
 
 Discord Security Bot that prevents priviliged people from destroying the server
 
+### Installation
+
+```bash
+pip install byteguard
+```
+
 ### Prerequisites
 
 1. Discord Server
