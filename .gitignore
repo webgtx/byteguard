@@ -1,0 +1,6 @@
+__pycache__
+*.swp
+*.tar.gz
+.env
+*venv
+*.egg-info

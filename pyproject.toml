@@ -1,0 +1,23 @@
+[project]
+name = "byteguard"
+version = "0.1.0"
+description = "Discord Security Bot that prevents priviliged people from destroying the server"
+authors = [{ name = "webgtx" }]
+license = { text = "BSD 3-Clause License" }
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "python-dotenv==1.0.0",
+    "requests==2.31.0",
+    "discord.py==2.4.0"
+]
+
+[project.scripts]
+byteguard = "byteguard:main"
+
+[project.urls]
+Source = "https://github.com/webgtx/byteguard"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
